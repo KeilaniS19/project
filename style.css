@@ -1,19 +1,28 @@
-#main-title {
-    color:whitesmoke;
-    font-size:50px;
-    font-style:inherit;
-}
-
 body {
-background-image: 
+background-image: url(images/background.jpeg);
 }
 
+#container {
+    position: fixed;
+}
+
+.portal {
+    height:250px;
+    margin: 35px;
+}
+
+#header {
+    color:aliceblue;
+    text-align: center;
+}
 #description {
-    font-size: 30px;
-    
+transition: font-size 0.3s ease
 }
 
-#character-list {
-    justify-content: flex-end;
-    display: flex;
+#description:hover {
+    font-size: 25px;
+}
+
+#main-title {
+    font-size: 50px;
 }
